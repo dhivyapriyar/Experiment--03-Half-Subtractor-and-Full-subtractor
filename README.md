@@ -82,9 +82,11 @@ endmodule
 ## Truthtable
 
 Halfsubtractor:
+
 ![exp45](https://github.com/dhivyapriyar/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/119477552/209500d3-2760-482c-94c4-81c9c586dcd4)
 
 Fullsubtractor:
+
 ![exp46](https://github.com/dhivyapriyar/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/119477552/8511bcf6-c04d-43d2-a2a5-36bc079745dd)
 
 ##  RTL realization
