@@ -108,10 +108,10 @@ Fullsubtractor:
 
 ## Timing diagram 
 Halfsubtractor:
-![exp41](https://github.com/dhivyapriyar/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/119477552/69a723a5-6ce7-4207-b873-2d6ede907790)
+![one](https://github.com/dhivyapriyar/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/119477552/ffff50e8-7042-492c-a3ff-4cac811491a0)
 
 Fullsubtractor:
-![exp42](https://github.com/dhivyapriyar/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/119477552/c83c5fad-8cf5-4a2a-99b8-606575ead6f7)
+![two](https://github.com/dhivyapriyar/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/119477552/927ff18e-695b-4399-8bba-f6d92084e079)
 
 
 ## Result:
