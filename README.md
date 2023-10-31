@@ -51,29 +51,37 @@ RegisterNumber: 212222230032
 ```
 ## Halfsubtractor:
 
-module learner(a,b,difference,borrow);
+module EX04(a,b,difference,borrow);
 
 input a,b;
 
 output difference,borrow;
 
-assign difference = (a^b);
+wire x;
 
-assign borrow = (~a&b);
+xor (difference,a,b);
+
+not (x,a);
+
+and (borrow,x,b);
 
 endmodule
 
 ## Fullsubtractor:
 
-module exp4fulladder(a,b,c,difference,borrow);
+module FullSub04(a,b,bin,difference,borrow);
 
-input a,b,c;
+input a,b,bin;
 
 output difference,borrow;
 
-assign difference=(a^b^c);
+wire p;
 
-assign borrow=(~a&(b^c)|(b&c));
+assign difference=((a^b)^bin);
+
+not (p,a);
+
+assign borrow=((p&b)|(p&bin)|(b&bin));
 
 endmodule
 
